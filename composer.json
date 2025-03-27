@@ -1,17 +1,22 @@
 {
-    "name": "samuelpouzet/text-utils",
-    "description": "Options to manage text easyly",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Samuelpouzet\\TextUtils\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Samuel POUZET",
-            "email": "samuel.pouzet@yahoo.fr"
-        }
-    ],
-    "require": {}
+  "name": "samuelpouzet/text-utils",
+  "description": "Options to manage text easyly",
+  "type": "library",
+  "license": [
+    "LGPL-3.0-or-later"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Samuelpouzet\\TextUtils\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Samuel POUZET",
+      "email": "samuel.pouzet@yahoo.fr"
+    }
+  ],
+  "require": {
+    "php": "^8.0.0"
+  }
 }
