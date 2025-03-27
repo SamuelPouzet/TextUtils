@@ -1,6 +1,6 @@
 <?php
 
-namespace samuelpouzet\TextUtils;
+namespace SamuelPouzet\TextUtils;
 
 use Transliterator;
 
