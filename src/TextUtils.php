@@ -9,7 +9,7 @@ class TextUtils
 
     public static function snakeToCamelCase(string $string): string
     {
-        return str_replace('_', '', ucwords($string, '_'));
+        return lcfirst(str_replace('_', '', ucwords($string, '_')));
     }
 
     public static function slugify(string $string, string $divider = '_'): string
