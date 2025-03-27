@@ -1,0 +1,17 @@
+{
+    "name": "samuelpouzet/text-utils",
+    "description": "Options to manage text easyly",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Samuelpouzet\\TextUtils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel POUZET",
+            "email": "samuel.pouzet@yahoo.fr"
+        }
+    ],
+    "require": {}
+}
